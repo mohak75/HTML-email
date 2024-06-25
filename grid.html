@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+      }
+      .container {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr 1fr 1fr 1fr;
+                gap: 1em;
+                margin: 1em;
+                grid-auto-flow: row;
+                grid-template-areas:
+                    "a b"
+                    "c d"
+                    /* "e f" */
+                    /* "x x"; */
+            }
+      
+
+      /* .x {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1.5fr 0.5fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "."
+          ".";
+        grid-area: x;
+        background-color: aquamarine;
+        margin: 10px;
+      } */
+
+      .a {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1.5fr 0.5fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "."
+          ".";
+        grid-area: a;
+        /* background-color: aquamarine; */
+        /* margin: 10px; */
+      }
+
+      .b {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1.5fr 0.5fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "."
+          ".";
+        grid-area: b;
+        /* background-color: aquamarine; */
+        /* margin: 10px; */
+      }
+
+      .c {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1.5fr 0.5fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "."
+          ".";
+        grid-area: c;
+        /* background-color: aquamarine; */
+        /* margin: 10px; */
+      }
+
+      .d {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1.5fr 0.5fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "."
+          ".";
+        grid-area: d;
+        /* background-color: aquamarine; */
+        /* margin: 10px; */
+      }
+
+      /* .e {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1.5fr 0.5fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "."
+          ".";
+        grid-area: e;
+        background-color: aquamarine;
+        margin: 10px;
+      }
+
+      .f {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1.5fr 0.5fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "."
+          ".";
+        grid-area: f;
+        background-color: aquamarine;
+        margin: 10px;
+      } */
+    </style>
+  </head>
+  <body>
+    <!-- <header style="background-color: aquamarine; margin-bottom: 0px">.</header> -->
+    <main>
+        <!--  -->
+        <div class="banner">
+            <a href="https://store.globalplugin.com/">
+              <img
+                src="banner.webp"
+                alt="Banner"
+                style="height: auto; width: 100%; padding: 0px; margin: 0px"
+              />
+            </a>
+          </div>
+        </div>
+        <form action="https://store.globalplugin.com/">
+            
+          <button
+            type="submit"
+            class="shop-button"
+            style="
+              width: 100%;
+              height: 80px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              padding: 10px 20px;
+              background: linear-gradient(to bottom, #00ffff, #abfff7);
+              color: #ffffff;
+              text-decoration: none;
+              border-radius: 5px;
+              box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+              font-weight: bold;
+              font-size: xx-large;
+              text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+            "
+          >
+            Shop Now
+          </button>
+        </form>
+        <!--  -->
+      <div class="container">
+        
+        <!-- <div class="x">
+          <div>x1</div>
+          <div>x2</div>
+        </div> -->
+        <div class="a">
+          <div style="display: flex; justify-content: center">
+            <a href="https://store.globalplugin.com/collections/lakanto">
+            <img
+              src="lakanto.png"
+              alt=""
+              style="
+                display: flex;
+                height: 100%;
+                width: 100%;
+                overflow: hidden;
+                align-items: center;
+                justify-content: center;
+              "
+            />
+        </a>
+          </div>
+          <div style="display: flex; justify-content: center; height: 50%; background: linear-gradient(to bottom, #7cf1f1, #c7fbf6);">
+            <img
+              src="lakanto-logo.png"
+              alt=""
+              style="
+                display: flex;
+                height: auto;
+                width: 30%;
+                overflow: hidden;
+                margin-block: 5px;
+                align-items: center;
+                justify-content: center;
+              "
+            />
+          </div>
+        </div>
+        <div class="b">
+          <div style="display: flex; justify-content: center;">
+            <a href="https://store.globalplugin.com/collections/aiwa">
+            <img
+              src="aiwa-banner.png"
+              alt=""
+              style="
+                display: flex;
+                height: 100%;
+                width: 100%;
+                overflow: hidden;
+                align-items: center;
+                justify-content: center;
+              "
+            />
+        </a>
+          </div>
+          <div style="display: flex; justify-content: center; height: 50%; background: linear-gradient(to bottom, #7cf1f1, #c7fbf6);">
+            <img
+              src="Aiwa Logo.png"
+              alt=""
+              style="
+                display: flex;
+                height: auto;
+                width: 30%;
+                margin-block: 5px;
+                overflow: hidden;
+                align-items: center;
+                justify-content: center;
+              "
+            />
+          </div>
+        </div>
+        <div class="c">
+          <div style="display: flex; justify-content: center">
+            <a href="https://store.globalplugin.com/collections/bakers">
+            <img src="bakers-banner.png" alt=""  style="
+            display: flex;
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+            align-items: center;
+            justify-content: center;
+          "/>
+        </a>  
+        </div>
+          <div style="display: flex; justify-content: center; height: 50%; background: linear-gradient(to bottom, #7cf1f1, #c7fbf6);">
+            <img src="bakers-logo.png" alt=""  style="
+            display: flex;
+            height: auto;
+            width: 30%;
+            margin-block: 5px;
+            overflow: hidden;
+            align-items: center;
+            justify-content: center;
+            
+          "
+        />/></div>
+        </div>
+        <div class="d">
+          <div style="display: flex; justify-content: center">
+            <a href="https://store.globalplugin.com/collections/wpc">
+            <img src="WPC.jpg" alt="" style="
+            display: flex;
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+            align-items: center;
+            justify-content: center;
+          "/>
+        </a>  
+        </div>
+          <div style="display: flex; justify-content: center; height: 50%; background: linear-gradient(to bottom, #7cf1f1, #c7fbf6);"><img src="WPC logo-01.png" alt="" style="
+            display: flex;
+            height: auto;
+            width: 30%;
+            margin-block: 5px;
+            overflow: hidden;
+            align-items: center;
+            justify-content: center;
+            
+          "/></div>
+        </div>
+      
+      </div>
+      <ul style="list-style-type: none;
+      margin: 20px;
+      padding: 20px;
+      text-align: center;
+      background-color: rgb(0, 125, 131);">
+        <li style="display: inline; color: #ffffff; font-weight: bold;">One Store   |</li>
+        <li style="display: inline; color: #ffffff; font-weight: bold;">Multiple Brand |</li>
+        <li style="display: inline; color: #ffffff; font-weight: bold;">Exclusive Deal</li>
+      </ul> 
+      <!-- <footer style="background-color: aquamarine">.</footer> -->
+    </main>
+  </body>
+</html>
